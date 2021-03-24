@@ -12,15 +12,33 @@
 </head>
 <body>
   <h1>Fill your name into the form below to receive a letter!</h1>
-    <label for="username">Your name</label>
-    <input id="username" type="text" placeholder="Enter name here">
-
-    <button type="submit" class="btn">Submit</button>
-
-  <p>Hello, <span id="username"></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+  <div>
+    <form id="formOne">
+    <label for="person">Your name</label>
+    <input type="text" id="person"></input>
+    <button type="submit" id="btn">Submit</button>
+    </form>
+  </div>
+  
+  
+  
+  <div id="letter">   
+    <p>Hello, <span id="person"></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div> 
+  
   <!-- form where user inputs their name
-      button that gets a letter adressed back to them
-    -->
+    button that gets a letter adressed back to them
+  -->
+  <!--<div>
+      <form id="formOne">
+        <div class="form-group">
+        <label for="person1">Your name</label>
+        <input id="person1" type="text" class="form-control" placeholder="Enter name here">
+        </div>
+        
+        <button type="submit" class="btn">Submit</button>
+        
+      </form>
+    <div>--> 
 </body>
 </html>
